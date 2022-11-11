@@ -1,0 +1,38 @@
+/* Your code here */
+body {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-pad {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    justify-content: center;
+}
+
+.border-bottom {
+    border-bottom: 5px black solid;
+}
+
+.border-right {
+    border-right: 5px black solid;
+}
+
+.game-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 240px;
+}
+
+button {
+    font-size: 10px;
+}
